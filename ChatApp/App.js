@@ -1,23 +1,12 @@
 
-import React, {Component} from 'react';
-import {
-  SafeAreaView,
-  ScrollView,
-  StatusBar,
-  StyleSheet,
-  Text,
-  useColorScheme,
-  View,
-} from 'react-native';
-import Pages from "./src/Pages/Pages";
+import React from 'react';
+import Users from "./src/screens/Users";
+import UserMessage from "./src/screens/UserMessage";
 
-
-class App extends Component {
-  render() {
-    return (
-        <Pages/>
-    );
-  }
+const App = () => {
+  return (
+      <UserMessage />
+  )
 }
 
 export default App;
